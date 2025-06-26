@@ -1,6 +1,6 @@
 const Card = ({ img, title, type }) => {
   return (
-    <div className="card w-80 bg-base-100 shadow-md">
+    <div className="card w-80 bg-base-100 shadow-md hover:shadow-lg transition-shadow duration-300">
       <figure>
         <img src={img} alt={title} className="h-48 w-full object-cover" />
       </figure>
